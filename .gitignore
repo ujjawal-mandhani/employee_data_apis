@@ -1,0 +1,3 @@
+*__pycache__
+mongo/mongodb_data
+backend-api/app.log
