@@ -1,0 +1,6 @@
+[{ "$oid" : "67253db130f4e728d0fbe076", "employee_data" : { "employee_id" : "123456", "email" : "ujjawalmandhani97858@gmail.com", "gender" : "M", "isadmin" : "Y", "name" : "8pL", "department" : "Engineering", "role" : "Manager" } },
+{ "$oid" : "67254e347fc0dcd2b4413bfc", "employee_data" : { "employee_id" : "c09ed4e39b014a89b4bf79eef2b2ecdb", "email" : "supermandhani@gmail.com", "gender" : "M", "isadmin" : "N", "name" : "Ujjawal Mandhani", "department" : "Engineering", "role" : "Manager" } },
+{ "$oid" : "67254e7b7fc0dcd2b4413bfd", "employee_data" : { "employee_id" : "067a6c28432c4169b6bf1cf745575c17", "email" : "aupermandhani97859@gmail.com", "gender" : "M", "isadmin" : "N", "name" : "Ujjawal Mandhani", "department" : "Engineering", "role" : "Manager" } },
+{ "$oid" : "67256b2780a3eabf92e631eb", "employee_data" : { "employee_id" : "1234567", "email" : "ujjawal.mandhani@lumiq.ai", "gender" : "M", "isadmin" : "N", "name" : "Ujjawal Mandhani", "department" : "Engineering", "role" : "Manager", "date_joined" : "2024-11-01 23:58:31.758419" } },
+{ "$oid" : "6725e8a9c60ebea90a0f0128", "employee_data" : { "employee_id" : "786910", "email" : "new_test_email@gmail.com", "gender" : "F", "isadmin" : "Y", "name" : "Ujjawal Mandhani", "department" : "Engineering", "role" : "Analyst", "date_joined" : "2024-11-02 07:34:57.089302" } }
+]

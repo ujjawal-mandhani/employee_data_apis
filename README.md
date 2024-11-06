@@ -13,7 +13,9 @@
 
 ```bash
 docker-compose build 
-docker-compose up -d 
+docker-compose up -d
+# In order to import admin data
+docker exec -it mongodb mongoimport --db employee_data --collection employee_data_cllcn --file /home/data_import/import_data.json --jsonArray --username root --password example --authenticationDatabase admin
 ```
 **Generate KeyFile**
  You can generate your own Key file or you can use this one as well mongo/config/keyfile

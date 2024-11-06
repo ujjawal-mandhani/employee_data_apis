@@ -18,6 +18,7 @@ services:
   mongo:
     build: ./mongo/
     restart: always
+    container_name: mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
@@ -29,6 +30,7 @@ services:
     command: mongod --replSet rs0 --keyFile /data/configdb/keyfile
     volumes:
       - ./mongo/mongodb_data:/data/db
+      - ./mongo/data_import:/home/data_import
     healthcheck:
       test: |
         echo "try { 
